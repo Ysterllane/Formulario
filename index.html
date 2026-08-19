@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="/" method="post">
+        <fieldset>
+            <legend><strong>Dados pessoais</strong></legend>
+            <div>
+                <label for="nome-usuario">Digite seu nome completo:</label>
+                <input type="text" id="nome-usuario"  required>
+            </div>
+            <div>
+                <label for="data-de-nascimento">Digite sua data de nascimento:</label>
+                <input type="date" id="data-de-nascimento"  required>
+            </div>
+            <div>
+                <label for="cpf">Digite seu CPF:</label>
+                <input type="text" id="cpf" required>
+            </div>
+            <label for="sexo">Selecione seu sexo:</label>
+            <div>
+                <input type="radio" id="masculino" name="sexo" required>
+                <label for="masculino">Masculino</label>
+            </div>
+            <div>
+                <input type="radio" name="sexo" id="feminino">
+                <label for="feminino" required>Feminino</label>
+            </div>
+            <div>
+                <input type="radio" name="sexo" id="outro">
+                <label for="outro" required>Outro</label>
+            </div>
+            <div>
+                <input type="radio" name="sexo" id="prefiro-nao-informar">
+                <label for="prefiro-nao-informar" required>Prefiro não informar</label>
+            </div>
+            <div>
+                <label for="email">Digite seu email:</label>
+                <input type="email" id="email">
+            </div>
+            <div>
+                <label for="telefone">Digite seu telefone</label>
+                <input type="number" id="telefone">
+            </div>
+        </fieldset>
+        <fieldset>
+            <Legend>Endereço</Legend>
+            <div>
+                <label for="cep">CEP</label>
+                <input type="number" id="cep">
+            </div>
+            <div>
+                <label for="estado">Estado:</label>
+                <select id="estado" name="estado">
+                    <option value="Selecione seu estado" selected disabled>Selecione seu estado</option>
+                    <option value="Acre (AC)">Acre (AC)</option>
+                    <option value="Alagoas (AL)">Alagoas (AL)</option>
+                    <option value="Amapá (AP)">Amapá (AP)</option>
+                    <option value="Amazonas (AM)">Amazonas (AM)</option>
+                    <option value="Bahia (BA)">Bahia (BA)</option>
+                    <option value="Ceará (CE)">Ceará (CE)</option>
+                    <option value="Distrito Federal (DF)">Distrito Federal (DF)</option>
+                    <option value="Espírito Santo (ES)">Espírito Santo (ES)</option>
+                    <option value="Goiás (GO)">Goiás (GO)</option>
+                    <option value="Maranhão (MA)">Maranhão (MA)</option>
+                    <option value="Mato Grosso (MT)">Mato Grosso (MT)</option>
+                    <option value="Mato Grosso do Sul (MS)">Mato Grosso do Sul (MS)</option>
+                    <option value="Minas Gerais (MG)">Minas Gerais (MG)</option>
+                    <option value="Pará (PA)">Pará (PA)</option>
+                    <option value="Paraíba (PB)">Paraíba (PB)</option>
+                    <option value="Paraná (PR)">Paraná (PR)</option>
+                    <option value="Pernambuco (PE)">Pernambuco (PE)</option>
+                    <option value="Piauí (PI)">Piauí (PI)</option>
+                    <option value="Rio de Janeiro (RJ)">Rio de Janeiro (RJ)</option>
+                    <option value="Rio Grande do Norte (RN)">Rio Grande do Norte (RN)</option>
+                    <option value="Rio Grande do Sul (RS)">Rio Grande do Sul (RS)</option>
+                    <option value="Rondônia (RO)">Rondônia (RO)</option>
+                    <option value="Roraima (RR)">Roraima (RR)</option>
+                    <option value="Santa Catarina (SC)">Santa Catarina (SC)</option>
+                    <option value="São Paulo (SP)">São Paulo (SP)</option>
+                    <option value="Sergipe (SE)">Sergipe (SE)</option>
+                    <option value="Tocantins (TO)">Tocantins (TO)</option>
+                </select>
+            </div>
+            <div>
+                <label for="cidade">Digite sua cidade:</label>
+                <input type="text" id="cidade">
+            </div>
+            <div>
+                <label for="bairro">Digite seu bairro:</label>
+                <input type="text" id="bairro">
+            </div>
+            <div>
+                <label for="rua">Digite sua rua:</label>
+                <input type="nimber" id="rua">
+            </div>
+            <div>
+                <label for="numero-da-casa">Digite seu número da casa:</label>
+                <input type="text" id="numero-da-casa">
+            </div>
+            <div>
+                <label for="complemento">Digite seu complemento</label>
+                <input type="text" id="complemento">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Informações sobre o plano:</legend>
+            <div>
+                <label for="plano">Escolha seu plano</label>
+            </div>
+        </fieldset>
+    </form>
+<code>
+    print("")
+</code>
+</body>
+</html>
