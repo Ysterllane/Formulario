@@ -104,13 +104,21 @@ Um botão para limpar todos os dados preenchidos e retornar o formulário ao est
 Regras gerais: O formulário deverá atender às seguintes condições:
 
 Todos os campos deverão possuir uma identificação clara para o usuário.
+
 Os campos obrigatórios deverão ser identificados e possuir mecanismos de validação.
+
 O usuário deverá receber informações que facilitem o preenchimento dos campos, quando necessário.
+
 Os campos deverão possuir nomes que permitam identificar claramente qual informação está sendo enviada.
+
 As informações deverão ser agrupadas de acordo com seu significado.
 Cada grupo de informações deverá possuir um título descritivo.
+
 O formulário deverá apresentar uma organização lógica, facilitando seu preenchimento.
+
 Deverão ser utilizados recursos de validação disponíveis no próprio HTML sempre que forem adequados.
+
 O formulário deverá funcionar corretamente mesmo sem a aplicação de CSS.
+
 A estrutura deverá ser semanticamente organizada e seguir boas práticas de HTML.
 
